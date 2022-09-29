@@ -6,10 +6,10 @@
 
 n = int(input("Введите число N: "))
 
-result=[]
+result = []
 result.append(1)
 
-for i in range(1,n):
+for i in range(1, n):
     result.append(result[i-1]*(i+1))
 
 print(result)

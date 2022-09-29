@@ -7,8 +7,8 @@ def ListShuffle(listToShuffle, shuffleTimes):
         index1=0
         index2=0
         while index1==index2:
-            index1 = int(random()*len(listToShuffle))
-            index2 = int(random()*len(listToShuffle))
+            index1 = int(random()*(len(listToShuffle)-1))
+            index2 = int(random()*(len(listToShuffle)-1))
         temp=listToShuffle[index1]
         listToShuffle[index1]=listToShuffle[index2]
         listToShuffle[index2]=temp

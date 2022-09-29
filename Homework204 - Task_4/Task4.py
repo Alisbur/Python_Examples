@@ -2,25 +2,25 @@
 
 from random import random
 
-N=int(input("Введите число N: "))
+n = int(input("Введите число N: "))
 
-myList = []
+mylist = []
 
-for i in range(0,N):
-    myList.append(int(random()*2*N-N))
+for i in range(0, n):
+    mylist.append(int(random()*2*n-n))
 
-print(myList)
+print(mylist)
 
-result=1
+result = 1
 
-f=open('Homework204 - Task_4\\Nums.txt')
+f = open('Homework204 - Task_4\\Nums.txt')
 try:
     for line in f:
         try:
-            result*=myList[int(line.strip())-1]
+            result *= mylist[int(line.strip())-1]
         except ValueError:
             print("В файле содержится неправильное значение")
-            result=0
+            result = 0
 finally:
     f.close()
 
