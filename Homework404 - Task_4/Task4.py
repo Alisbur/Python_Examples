@@ -7,7 +7,7 @@
 from random import random
 
 k = int(input("Введите степень многочлена k: "))
-s=""
+s = ""
 coefficients = []
 
 for i in range(0, k+1):
@@ -15,20 +15,20 @@ for i in range(0, k+1):
 
 print(f"k = {k} => ", end="")
 
-for i,el in enumerate(coefficients):
+for i, el in enumerate(coefficients):
     if el < 0:
-        s+=f"- {-el}"
+        s += f"- {-el}"
     if el > 0:
-        if i==0:
-            s+=f"{el}"
+        if i == 0:
+            s += f"{el}"
         else:
-            s+=f"+ {el}"
-    if el!=0:
-        if i==len(coefficients)-2:
-            s+="x "
-        elif i!=len(coefficients)-1:
-            s+=f"x^{len(coefficients)-i-1} "
-s+=" = 0"
+            s += f"+ {el}"
+    if el != 0:
+        if i == len(coefficients)-2:
+            s += "x "
+        elif i != len(coefficients)-1:
+            s += f"x^{len(coefficients)-i-1} "
+s += " = 0"
 
-with open('Homework404 - Task_4\\Nums.txt','w') as data:
+with open('Homework404 - Task_4\\Nums.txt', 'w') as data:
     data.write(s)
