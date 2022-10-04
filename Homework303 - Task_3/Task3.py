@@ -21,3 +21,9 @@ for i in num_list:
         min_fract = i-int(i)
 
 print(f"{num_list} => {round(max_fract-min_fract,2)}")
+
+
+# lst = [1.1, 1.2, 3.1, 5, 10.01]
+
+# lst = [round(val % 1, 2) for val in lst]
+# rev_result = max(lst) - min(lst)

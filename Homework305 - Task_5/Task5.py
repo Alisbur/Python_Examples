@@ -11,7 +11,7 @@ def fib(n):
         if n == -1:
             return 1
         else:
-            return int(fib(-n)*(-1)**(n+1))
+            return int(fib(-n)*(-1)**(-n+1))
     else:
         if n == 0 or n == 1:
             return n
