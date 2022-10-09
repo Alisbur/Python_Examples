@@ -46,6 +46,11 @@ else:
     target = dict2.copy()
     source = dict1.copy()
 
+# Проверяем, чтобы в target были ключи для всех степеней многочленов, если каких-то нет, добавляем ключ и коэф 0
+for i in range(max(target.keys()),0,-1):
+    if i not in target.keys():
+        target[i]=0
+
 # Суммируем коэффициенты из souce в target
 for key in target.keys():
     if key in source.keys():
