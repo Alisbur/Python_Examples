@@ -1,5 +1,5 @@
+from ast import Pass
 import xml.etree.ElementTree as ET
-import class_person
 
 def read_from_xml(db_path):
     result = []

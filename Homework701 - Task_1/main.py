@@ -25,7 +25,7 @@ while True:
         case 2:
             data_list = IO_json.read_from_json(DB_JSON_PATH)
         case 3:
-            data_list = IO_xml.read_from_xml(DB_JSON_PATH)
+            data_list = IO_xml.read_from_xml(DB_XML_PATH)
         case 4:
             data_list.append(add_contact.add_new_person())
         case 5:

@@ -1,0 +1,20 @@
+{
+    "0": {
+        "Name": "George",
+        "Age": 14,
+        "Status": "Sudent",
+        "Group": null
+    },
+    "1": {
+        "Name": "Michael",
+        "Age": 10,
+        "Status": "Student",
+        "Group": null
+    },
+    "2": {
+        "Name": "Nikolay",
+        "Age": 3,
+        "Status": "Child",
+        "Group": null
+    }
+}
