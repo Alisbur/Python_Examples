@@ -73,7 +73,11 @@ def del_row(db_dict, key):
 def sort_table_key(db_dict):
     if db_dict:
         sorted_tuple = sorted(db_dict.items(), key=lambda x: x[0])
+        print("Строки отсортированы по индексам.")
+        time.sleep(1)           
         return dict(sorted_tuple)
+    print("В таблице нет данных для сортировки")    
+    time.sleep(1)     
     return db_dict
 
 
@@ -88,9 +92,9 @@ def sort_table_val(db_dict, col_name):
             time.sleep(1)       
             return dict(sorted_tuple)
         else:
-            print("В таблице нет указанной колонки")                
-    else:
-        print("В таблице нет данных для сортировки")    
+            print("В таблице нет указанной колонки. Данные не были отсортированы.")                
+    print("В таблице нет данных для сортировки")    
+    time.sleep(1)     
     return db_dict
 
     

@@ -1,26 +1,32 @@
 {
     "1": {
-        "Name": "George",
-        "Age": 14,
-        "Status": "Sudent",
-        "Group": null
+        "Name": "Sasha",
+        "Age": "35",
+        "Group": "Friend",
+        "Phone": "+1111111111"
     },
     "2": {
-        "Name": "Michael",
-        "Age": 10,
-        "Status": "Student",
-        "Group": null
+        "Name": "Gosha",
+        "Age": "14",
+        "Group": "Family",
+        "Phone": "+3333333333"
     },
     "3": {
-        "Name": "Nikolay",
-        "Age": 3,
-        "Status": "Child",
-        "Group": null
+        "Name": "Misha",
+        "Age": "10",
+        "Group": "Family",
+        "Phone": "+7777777777"
     },
     "4": {
-        "Name": "Konstantin",
-        "Age": "3",
-        "Status": "Child",
-        "Group": "Family"
+        "Name": "Pasha",
+        "Age": "32",
+        "Group": "Work",
+        "Phone": "+9999999999"
+    },
+    "5": {
+        "Name": "John",
+        "Age": "27",
+        "Group": "Friend",
+        "Phone": "+1234567890"
     }
 }

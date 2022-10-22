@@ -3,15 +3,11 @@ import os
 import datetime
 import json
 import menu
-import IO_csv
 import IO_json
-import IO_xml
 import db_print
 import table_ops
 
-DB_CSV_PATH = "Homework801 - Task_1\\db.csv"
-DB_JSON_PATH = "Homework801 - Task_1\\db1.json"
-DB_XML_PATH = "Homework801 - Task_1\\db.xml"
+DB_JSON_PATH = "Homework801 - Task_1\\db.json"
 
 db_dict = {}
 
